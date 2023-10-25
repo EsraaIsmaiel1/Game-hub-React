@@ -23,9 +23,6 @@ const useGames=()=>{
     const [error, setError] = useState('');
     const[isLoading , setLoading] = useState(false);
 
-
-
-
     useEffect(() => {
         const controller = new AbortController();
         setLoading(true);
