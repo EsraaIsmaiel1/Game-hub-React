@@ -1,9 +1,11 @@
-import ListGroup from "./components/ListGroup";
+import { Button, ButtonGroup } from '@chakra-ui/react';
 
 function App() {
   return (
-    <div><ListGroup/></div>
-  )
+    <div>
+      <Button colorScheme="blue">Button</Button>
+    </div>
+  );
 }
 
 export default App;
